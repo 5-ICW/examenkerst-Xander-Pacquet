@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* algemeen */
+.btn {
+  /* border: 1px solid black; */
+  margin: 5px 10px;
+  border-radius: 8px;
+  background-color: gray;
+  color: white;
+}
+
+/* .btn:hover {
+  background-color: white;
+  color: black;
+} */
+/* end algemeen */
+
+/* Header */
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+header nav .menu .menu-items {
+  display: flex;
+  list-style: none;
+}
+
+.menu-items a {
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.logo {
+  height: 200px;
+}
+
+/* END Header */
+
+/* main */
+.container-welkom {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
+.welkom-img {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.foto_huis {
+  display: grid;
+  height: 300px;
+  border-top-left-radius: 5px;
+}
+.foto_ligging {
+  display: grid;
+  height: 300px;
+}
+
+.foto_grondplan {
+  display: grid;
+  height: 300px;
+  grid-column: 1 /2;
+  grid-row: 3 / 4;
+}
+
+.info-main {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-main p {
+  margin: 20px;
+}
+/* end main */
